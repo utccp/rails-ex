@@ -9,6 +9,10 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # Ruby >=2.7 is required for Rails 7
 gem 'rails', '< 7.0'
+
+# Ruby >=2.6 is required for nokogiri 1.13
+gem 'nokogiri', '< 1.13'
+
 # Support postgresql as a database for Active Record
 gem 'pg'
 # Support sqlite3 as a database for Active Record
