@@ -20,6 +20,8 @@
 #   $ ./test_cont.sh registry.access.redhat.com/ubi8/ruby-26
 #
 
+export http_proxy=
+
 [[ "$1" == "-i" ]] && {
   inject=" && { $2 ; }"
   shift 2
